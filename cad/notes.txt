@@ -1,0 +1,14 @@
+# CAD Notes for p(T,v) Surface
+
+Since Fusion 360 is not available in this environment, the CAD agent would:
+
+1. Import STL from stl/pTv_surface.stl
+2. Add base plate with axes labels:
+   - T axis: 0-140 mm (220-360 K)
+   - v axis: 0-70 mm (log scale)
+   - Height: 0-70 mm (p scale)
+3. Engrave labels: "R134a p(T,v)", units, saturation dome
+4. Create section planes for removable cuts
+5. Export STLs: full, sections, base
+
+For virtual model, the STL is ready for viewing in any STL viewer.
