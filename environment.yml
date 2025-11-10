@@ -1,0 +1,10 @@
+name: thermo-env
+channels:
+  - cantera
+  - conda-forge
+dependencies:
+  - python=3.9
+  - cantera
+  - numpy
+  - pandas
+  - matplotlib
